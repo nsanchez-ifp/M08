@@ -1,0 +1,148 @@
+body{
+  margin: auto 0px;
+  font-family: Helvetica Neue, Sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+  .blanca{
+    background-color: #FFF;
+    height: 40px;
+  }
+
+  .verda{
+    background-color: #6C3;
+    height: 550px;
+  }
+
+  .fosca{
+    background-color: #333333;
+  }
+
+  .clara{
+    background-color: #EEECEE;
+  }
+
+#menu{
+  height: 55px;
+}
+
+#coneix{
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+}
+
+#tot{
+  height: 641px;
+  background-image: url(../img/allinone.jpg);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+
+}
+#arreu{
+  height: 643px;
+  background-image: url(../img/anywhere.png);
+  background-repeat: no-repeat;
+  background-position:450px 0;
+}
+#rapid{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+}
+#util{
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+}
+#descarrega{
+  height: 200px;
+text-align: center;
+}
+
+#facil{
+  background-image: url(../img/mobile-share.png);
+  background-repeat: no-repeat;
+  background-position: 450px 0;
+  height: 550px;
+}
+
+#torna{
+
+}
+
+.torna{
+   width: 100px;
+   height: 100px;
+   background-color: orange;
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+   border-radius: 50px;
+   font-size: 80px;
+   text-align: center;
+   line-height: 120px;
+   box-shadow: black 0px 10px 0px;
+ }
+
+h1{
+  margin: auto 0px;
+  font-size: 22px;
+  width: 390px;
+  padding: 0 30px;
+}
+p{
+  margin: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: ;
+  width: 390px;
+  padding: 0 30px;
+
+}
+
+#descarrega img{
+  text-align: center;
+  padding: 30px;
+}
+
+li{
+list-style-type: none;
+height: 30px;
+margin: 0;
+display: inline-block;
+padding: 6px;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+li:hover{
+  background-color: #6C3
+}
+ul{
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  height: 30px;
+  text-align: right;
+}
+
+a:link{
+  color: black;
+}
+
+a:hover{
+  background-color: green;
+}
+
+a:active{
+  background-color: black;
+  color: yellow;
+}
+
+a:visited{
+  color: black;
+}

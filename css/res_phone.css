@@ -1,0 +1,125 @@
+@media screen and (max-width: 500px)
+{
+  body{background-color: #ADD8E6;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+  }
+img{
+max-width: 90%;
+}
+
+  ul,ol, li {
+      padding: 0;
+      margin: 0;
+      list-style: none inside;
+  }
+
+  li{
+    line-height: 1em;
+  text-align: center;
+  }
+
+
+  h1,h2{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  h1{
+    font-size: 3em;
+    line-height: 1em;
+  }
+
+  h2{
+    font-size: 2em;
+    line-height: 2em;
+    font-family: "helvetica";
+    text-align: center;
+
+  }
+  h3{
+    font-size: 1,5em;
+    line-height: 2em;
+    font-family: "helvetica";
+    text-align: center;
+
+
+  }
+  p{
+    width: 400px;
+  }
+
+  #primer{
+    background-color: #f6f277
+  }
+  #primer img{
+    padding-top: 15px;
+  }
+
+  #menu{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+  }
+  #menu li{
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+
+  #segon{
+    background-color: #f8fabb
+  }
+
+  #segon h1{
+   width: 30%;
+   display: inline-block;
+   vertical-align: middle;
+  }
+  #segon div{
+   width: 30%;
+   display: inline-block;
+     vertical-align: middle;
+     padding-left: 5%
+  }
+  #segon ul{
+   width: 20%;
+   display: inline-block;
+     vertical-align: middle;
+     padding-left: 45%;
+  }
+
+
+  #inici{
+    text-align: right;
+    width: 80%;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    padding-top: 36px;
+    position: fixed;
+    bottom: 50px;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  a:link{
+    color: #e53496;
+  }
+  a:visited{
+    color: #e53496;
+  }
+  a:hover{
+    color: #e53496;
+  }
+  a:active{
+    color: #e53496;
+  }

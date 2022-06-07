@@ -1,0 +1,63 @@
+body{
+  margin:  100px;
+  padding: 0px;
+}
+.petal{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 0 100%;
+}
+#estigma{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 50%;
+  transform: translate(75px, 125px);
+  position: relative;
+  z-index: 1;
+}
+#flor{
+  animation-name: flor;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes flor{
+from{
+    transform: rotate(0deg);
+    transform-origin: 100px 150px;
+  }
+to{
+    transform: rotate(360deg);
+    transform-origin: 100px 150px;
+  }
+}
+
+#p2{
+transform: translate(0, -100px) rotate(60deg);
+transform-origin: 100% 100%;
+}
+#p3{
+  transform: translate(0, -200px) rotate(120deg);
+  transform-origin: 100% 100%;
+}
+#p4{
+  transform: translate(0, -300px) rotate(180deg);
+  transform-origin: 100% 100%;
+}
+#p5{
+  transform: translate(0, -400px) rotate(240deg);
+  transform-origin: 100% 100%;
+}#p6{
+  transform: translate(0, -500px) rotate(300deg);
+  transform-origin: 100% 100%;
+}
+#tija{
+  width: 20px;
+  height: 1000px;
+  background-color: green;
+  margin: 95px;
+  position: relative;
+transform: translate(0, -600px);
+z-index: -1;
+}

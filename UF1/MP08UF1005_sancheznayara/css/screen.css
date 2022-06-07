@@ -1,0 +1,78 @@
+body{
+  background-image: url(../img/fondo.jpeg);
+  font-family: Helvetica;
+    top: 250px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+h3{
+  top: 250px;
+  width: 225px;
+  height: 225px;
+  margin-left: 50px;
+
+}
+h4{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+h5{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+h6{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24pt;
+  margin-top: 20px;
+  text-align: center;
+}
+p{
+  margin-top: 10px;
+}
+
+div{
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+  margin-left: 50px;
+  background-color: #d0d3cf;
+  border-radius: 50px;
+  display: inline-block;
+  float: left;
+  padding-left: 50px;
+  text-align: justify;
+  font-size: 12,5pt;
+}
+
+.funcionalitats, .captures, .financament, .companyia, .valoracio, .alternatives{
+  padding: 40px 20px 20px 20px;
+
+}
+
+
+
+article{
+  /*background-color: blue;*/
+  float: left;
+}
+
+img{
+  margin-top: 15px;
+}
+
+.captures .cap{
+  width: 300px;
+  height: 430px;
+  margin: 0px 60px 0px 50px;
+  padding-left: 30px;
+  position: relative;
+  text-align: center;
+}

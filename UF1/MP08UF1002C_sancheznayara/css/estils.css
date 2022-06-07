@@ -1,0 +1,33 @@
+body {
+
+  }
+
+div {
+    margin: 13.3px;
+    overflow: visible;
+    font-family: Helvetica, Sans-serif;
+}
+
+.cap, .peu {
+  width: 1173,4px;
+  height: 200px;
+  clear: both;
+  text-align: center;
+}
+
+
+.esquerra, .dreta {
+  width: 200px;
+  float: left;
+}
+
+.cos{
+  width: 720px;
+  float: left;
+}
+
+.contenidor {
+  width: 1200px;
+  background-color: tomato;
+  margin: 0 auto;
+}

@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  height: 0;
+  background-color: #333333;
+}
+
+.extras{
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  float:inherit;
+}
+
+.extras div img{
+  width: 100%;
+  height: auto;
+}
+.inicio div{
+  float: left;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+.inicio div img{
+  width: 100%;
+  height: auto;
+}
+.Documentals {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+position: fixed;
+}
+  h1{
+  height: 15%;
+color: white;
+font-family: Helvetica, sans-serif;
+color: #fff;
+font-size: 20;
+}
+p{
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+}
+h2{
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #fff;
+}

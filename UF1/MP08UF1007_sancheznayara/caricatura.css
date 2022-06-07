@@ -1,0 +1,149 @@
+body{
+background: pink;
+}
+
+#cap{
+  width: 450px;
+  height: 600px;
+  background-color: #edaa7c;
+  margin: 0 auto;
+  border-radius:250px 250px 300px 290px;
+  box-shadow: inset 0px 110px 0px #572801;
+}
+
+#cap:after{
+  content: "";
+  display: block;
+  width:  550px;
+  height: 950px;
+  background: rgb(145,63,8);
+background: linear-gradient(0deg, rgba(145,63,8,1) 0%, rgba(87,40,1,1) 100%);
+  border-radius: 25%;
+  position: relative;
+  z-index: -1;
+  left: -50px;
+}
+.celles{
+  height: 75px;
+  width: 550px;
+  position: relative;
+  top: -360px;
+  margin: 0 auto;
+
+}
+
+#cellaesq{
+  width: 150px;
+  height: 15px;
+  border-radius: 0 75% 0 75% ;
+  background-color: #441f01;
+  float: left;
+  margin-left: 95px;
+}
+
+#celladreta{
+  width: 150px;
+  height: 15px;
+  background-color: #441f01;
+  border-radius: 75% 0 75% 0;
+  float: right;
+  margin-right: 95px;
+}
+
+.orella{
+  height: 800px;
+  margin: 500px;
+  position: relative;
+  top: -850px;
+  margin-left: 35px;
+}
+
+#orelladreta{
+  width: 40px;
+  height: 70px;
+  background-color: #edaa7c;
+  border-radius: 40px;
+  margin: 0 auto;
+
+}
+
+
+#nariiz{
+width: 75px;
+height: 100px;
+margin: auto;
+background-color: transparent;
+  border-radius: 30px;
+  box-shadow: 0px 5px #d6894b;
+position: relative;
+top: -2300px;
+}
+
+#boca{
+  width: 100px;
+  height: 40px;
+  background-color: #fc796d;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50% 50% 100% 100%;
+  top: -2230px;
+}
+#boca{
+  animation-name: boca;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+@keyframes boca{
+  from{
+      transform: scale(1)rotate(1deg);
+    }
+  to{
+      transform: scale(2)rotate(1deg);
+
+    }
+}
+#ulld{
+  width: 120px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  top: -2200px;
+  left: -100px;
+}
+
+#ullI{
+  width: 120px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  background-color: white;
+  top: -2250px;
+  right: -100px;
+}
+#ull11{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  background: rgb(115,57,11);
+background: radial-gradient(circle, rgba(115,57,11,1) 66%, rgba(167,95,38,1) 100%);
+  top: -2290px;
+  left: -100px;
+}
+#ull22{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  background: rgb(115,57,11);
+background: radial-gradient(circle, rgba(115,57,11,1) 66%, rgba(167,95,38,1) 100%);
+  top: -2320px;
+  right: -100px;
+}
